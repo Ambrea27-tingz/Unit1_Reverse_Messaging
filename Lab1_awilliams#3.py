@@ -15,6 +15,6 @@ chat_message =input("Enter message into the chat:")
 #Output the message in reverse
 print("Your message in reverse is:", chat_message[::-1])
 
-#says the number of characters in the message
+#says the number of characters in the message using the len() function.
 print(f"Number of characters: {len(chat_message)}")
 
